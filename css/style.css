@@ -9,6 +9,8 @@ html,body{
 	height: 100%;
 }
 
+ /* ======= Header Styling ====== */
+
 .container{
 	max-width: 1280px;
 	margin:0 auto;
@@ -119,6 +121,8 @@ header nav.desktop-menu li a{
 	margin-top:10px;
 }
 
+ /* ====== Section 1 ====== */
+
 section.sessao1{
 	width: 100%;
 	background-color: #000022;
@@ -186,6 +190,8 @@ section.sessao1 .container{
 	background-size: 100% 100%;
 }
 
+ /* ====== Section 2 ====== */
+
 .sessao2{
 	padding-left: 2%;
 	padding-right: 2%;
@@ -214,6 +220,8 @@ section.sessao1 .container{
 	width: 100%;
 	margin-top:10px;
 }
+
+ /* ====== Section 3 ====== */
 
 .sessao3{
 	width: 100%; 
@@ -320,7 +328,7 @@ section.sessao1 .container{
 	background-color: rgb(200,200,200);
 }
 
-/* Aqui começa a sessão 4 */
+ /* ====== Section 4 ====== */
 
 section.sessao4{
 	background-color: #000022;
@@ -420,8 +428,7 @@ section.sessao4{
 	border:5px solid rgb(200,200,200);
 }
 
-/***/
-
+/* ====== Footer Styling ====== */
 
 footer{
 	padding:40px 2%;
@@ -440,6 +447,8 @@ footer p:nth-of-type(2){
 	font-size: 14px;
 	font-style: italic;
 }
+
+ /* ====== Media Querys ====== */
 
 @media screen and (max-width: 830px){
 
