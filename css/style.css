@@ -45,13 +45,15 @@ nav.mobile-menu{
 	background-size: 100% 100%;
 }
 
+/*
 nav.mobile-menu:hover ul{
 	opacity: 1;
 }
+*/
 
 nav.mobile-menu ul{
-	opacity: 0;
-	transition: 1s;
+	display: none;
+	/*transition: 1s;*/
 	background-color: white;
 	position: absolute;
 	width: 100%;
@@ -260,10 +262,20 @@ section.sessao1 .container{
 	background: #DE3C4B;
 }
 
+.scroll{
+	max-width: 600px;
+	padding-left: 20px;
+	overflow: hidden;
+}
+
+.scroll-wraper{
+	width: 100%;
+}
+
 .sobre-autor{
 	float: left;
-	max-width: 600px;
-	padding-left: 30px;
+	width: 100%;
+	padding: 0 20px;
 }
 
 .titulo-autor{
@@ -293,7 +305,7 @@ section.sessao1 .container{
 	float: left;
 	width: 120px;
 	height: 120px;
-	background-image: url('../imagens/eusol.jpg');
+	background-image: url('../imagens/eusol.png');
 	background-size: 100% 100%;
 	border-radius: 500px;
 	background-color: transparent;
@@ -314,7 +326,7 @@ section.sessao1 .container{
 .slider-bullets{
 	width: 100%;
 	float: left;
-	padding-left: 30px;
+	padding-left: 40px;
 	margin-top:12px;
 }
 
